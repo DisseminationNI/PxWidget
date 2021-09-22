@@ -57,7 +57,7 @@ The parent outer function must be async
     if (geometryType == "MultiPolygon" || geometryType == "Polygon") {
         choroplethLayer = pxWidget.L.choropleth(pxWidget.map.geojson[id], {
             valueProperty: 'value',
-            scale: ['white', 'blue'],
+            scale: ['white', 'red'],
             steps: 5,
             mode: 'q',
             style: {
