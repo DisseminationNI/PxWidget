@@ -18,12 +18,18 @@ pxWidget.config = {
     "baseMap": {
         "leaflet": [
             {
-                "url": "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
+                "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 "options": {
-                    "attribution": "&copy; <a target=\"_blank\" href=\"https://www.google.co.uk/copyright\">Google Maps</a>"
+                    "attribution": "&copy; <a target=\"_blank\" href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>"
                 }
             }
         ],
-        
+        "esri": [
+            {
+                "url": "https://services.spatialni.gov.uk/opendata/rest/services/OSNIRaster/OSNIOpenData_Streetmaps/ImageServer"
+            }
+        ]
     }
 };
+      
+   
