@@ -26,7 +26,7 @@ pxWidget.config = {
         ],
         "esri": [
             {
-                "url": "https://services.spatialni.gov.uk/opendata/rest/services/OSNIRaster/OSNIOpenData_Streetmaps/ImageServer"
+                "url": "https://utility.arcgis.com/usrsvcs/servers/ce02927505e346a1962d5c8479e0ce0e/rest/services/VectorBasemaps/OSNIFusionBasemap/MapServer"
             }
         ]
     }
