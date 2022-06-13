@@ -26,10 +26,8 @@ pxWidget.config = {
         ],
         "esri": [
             {
-                "url": "https://utility.arcgis.com/usrsvcs/servers/ce02927505e346a1962d5c8479e0ce0e/rest/services/VectorBasemaps/OSNIFusionBasemap/MapServer"
+                "url": "https://tiles.arcgis.com/tiles/uWTLlTypaM5QTKd2/arcgis/rest/services/Basemap%20Public/MapServer"
             }
         ]
     }
 };
-      
-   
