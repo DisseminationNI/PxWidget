@@ -26,7 +26,7 @@ pxWidget.config = {
         ],
         "esri": [
             {
-                "url": "https://utility.arcgis.com/usrsvcs/servers/ce02927505e346a1962d5c8479e0ce0e/rest/services/VectorBasemaps/OSNIFusionBasemap/MapServer"
+                "url": "https://utility.arcgis.com/usrsvcs/servers/4e112f1a7fb047869a7247a0a2efb175/rest/services/VectorBasemaps/OSNIFusionBasemap_WGS84/MapServer"
             }
         ]
     }
