@@ -74,7 +74,7 @@ pxWidget.chart.draw = function (id) {
                 ctx.textBaseline = "bottom";
                 ctx.fillStyle = "#666";
                 ctx.font = "14px Arial";
-                var dateUpdated = pxWidget.moment(chart.options.updated, 'YYYY-MM-DDTHH:mm:ss').format('MMMM DD, YYYY') + " " + pxWidget.moment(chart.options.updated, 'YYYY-MM-DDTHH:mm:ss').format('HH:mm:ss') + " UTC";
+                var dateUpdated = pxWidget.moment(chart.options.updated, 'YYYY-MM-DDTHH:mm:ss').format('MMMM DD, YYYY');
                 ctx.fillText(dateUpdated, 0, chart.canvas.clientHeight);
             }
             ctx.save();
