@@ -224,7 +224,7 @@ pxWidget.table.draw = function (id) {
 
     var footerElements = [];
     if (data.updated) {
-        var dateUpdated = pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('MMMM DD, YYYY') + " " + pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('HH:mm:ss') + " UTC";
+        var dateUpdated = pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('DD MMMM, YYYY');
         footerElements.push(dateUpdated);
     }
 
