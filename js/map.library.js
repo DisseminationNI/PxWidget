@@ -195,7 +195,7 @@ heatmapData = {
     });
     var dateUpdated = "";
     if (pxWidget.map.jsonstat[id].updated) {
-        dateUpdated = pxWidget.moment(pxWidget.map.jsonstat[id].updated, 'YYYY-MM-DDTHH:mm:ss').format('MMMM DD, YYYY') + " " + pxWidget.moment(pxWidget.map.jsonstat[id].updated, 'YYYY-MM-DDTHH:mm:ss').format('HH:mm:ss') + " UTC";
+                dateUpdated = pxWidget.moment(pxWidget.map.jsonstat[id].updated, 'YYYY-MM-DDTHH:mm:ss').format('DD MMMM, YYYY');
     }
     var localAttribution = "<br>" + dateUpdated;
     localAttribution += pxWidget.draw.params[id].link ? " <a target='_blank' href='" + pxWidget.draw.params[id].link + "'>" + pxWidget.draw.params[id].link + "</a> <br>" : "<br>";
