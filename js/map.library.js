@@ -10,7 +10,13 @@ pxWidget.map.callback = {};
 pxWidget.map.geojson = [];
 pxWidget.map.jsonstat = [];
 pxWidget.map.values = [];
-
+pxWidget.map2 = {};
+pxWidget.map2.metadata = {};
+pxWidget.map2.ajax = {};
+pxWidget.map2.callback = {};
+pxWidget.map2.geojson = [];
+pxWidget.map2.jsonstat = [];
+pxWidget.map2.values = [];
 
 /**
  * Draw a pxWidget Chart
