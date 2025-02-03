@@ -227,8 +227,7 @@ pxWidget.table.draw = function (id) {
 
     var footerElements = [];
     if (data.updated) {
-        var dateUpdated = pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('MMMM DD, YYYY') + " " + pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('HH:mm:ss') + " UTC";
-        footerElements.push(dateUpdated);
+                var dateUpdated = pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('DD MMMM, YYYY');
     }
 
     if (pxWidget.draw.params[id].copyright) {
