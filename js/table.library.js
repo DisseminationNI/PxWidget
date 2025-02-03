@@ -229,7 +229,7 @@ pxWidget.table.draw = function (id) {
     if (data.updated) {
                 var dateUpdated = pxWidget.moment(data.updated, 'YYYY-MM-DDTHH:mm:ss').format('DD MMMM, YYYY');
     }
-
+ footerElements.push(dateUpdated);
     if (pxWidget.draw.params[id].copyright) {
         footerElements.push('&copy; ' + data.extension.copyright.name);
     }
