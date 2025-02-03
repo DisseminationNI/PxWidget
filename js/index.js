@@ -63,7 +63,7 @@ pxWidget.load(window, document, 'script', 'https://unpkg.com/@turf/turf@6.3.0/tu
 
 // JSON-Stat - https://github.com/badosa/JSON-stat/
 pxWidget.noConflict.JSONstat = window.JSONstat ? window.JSONstat : null;
-pxWidget.load(window, document, 'script', 'https://cdn.jsdelivr.net/gh/badosa/JSON-stat@v0.13.3/json-stat.min.js');
+pxWidget.load(window, document, 'script', 'https://cdn.jsdelivr.net/npm/jsonstat-toolkit@1.4.2');
 
 // pxWidget CSS
 pxWidget.load(window, document, 'link', pxWidget.root + (pxWidget.debug ? 'css/index.css' : 'css/index.min.css'));
